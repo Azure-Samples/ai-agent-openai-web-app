@@ -5,25 +5,13 @@
 <header class="masthead">
     <div class="header-content">
         <div class="brand-container">
-            <img src="images/storelogo.png" alt="Fashion Store Logo" class="header-logo">
-            <h1>Fashion Store Assistant</h1>
+            <img src="images/obungilogo.png" alt="Obungi Logo" class="header-logo">
+            <h1>My Company Copilot</h1>
         </div>
         <nav class="main-nav">
             <ul class="nav-list">                <li class="nav-item">
                     <a class="nav-link @(GetCurrentPageClass("/"))" href="/">
                         <i class="bi bi-chat-dots-fill"></i> Assistant
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link @(GetCurrentPageClass("/inventory"))" href="/inventory">
-                        <i class="bi bi-box-seam-fill"></i> Inventory
-                    </a>
-                </li>                <li class="nav-item">
-                    <a class="nav-link @(GetCurrentPageClass("/cart"))" href="/cart">
-                        <i class="bi bi-cart-fill"></i> Cart
-                        <span id="cartBadge" class="cart-badge" style="@(CartItemCount > 0 ? "display:inline-block" : "display:none")">
-                            @CartItemCount
-                        </span>
                     </a>
                 </li>
             </ul>
