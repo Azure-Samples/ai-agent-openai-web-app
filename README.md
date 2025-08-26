@@ -13,14 +13,14 @@ This sample contains a .NET Blazor web application that uses Azure AI Agents to 
 
 The application consists of:
 
-- A .NET 8 Blazor web application frontend 
+- A .NET 9 Blazor web application frontend 
 - Azure AI Agent integration for intelligent shopping assistance
 - RESTful APIs for shopping cart management
 - Azure App Service and Azure AI Foundry infrastructure using Bicep and azd template
 
 ## Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
 - [Azure Developer CLI](https://aka.ms/azd)
 - Azure subscription
 - Visual Studio 2022 or Visual Studio Code
